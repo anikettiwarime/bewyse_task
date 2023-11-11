@@ -15,12 +15,6 @@ from pathlib import Path
 
 from decouple import config
 
-# firebase settings
-
-# import firebase_admin
-# from firebase_admin import credentials, initialize_app
-# cred = credentials.Certificate(config('FIREBASE_CREDENTIALS'))
-# initialize_app(cred)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
